@@ -1,0 +1,11 @@
+
+__pycache__/
+.venv/
+.ruff_cache/
+
+*.csv
+*.json
+
+.vscode/
+.idea/
+.DS_Store

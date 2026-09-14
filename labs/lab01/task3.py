@@ -5,7 +5,6 @@ import json
 import os
 import sys
 
-#Підключення модуля student зі спільної папки shared
 sys.path.append(
     os.path.abspath(os.path.join(os.path.dirname(__file__), "../../"))
 )

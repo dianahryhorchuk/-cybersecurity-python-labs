@@ -12,12 +12,11 @@ from shared.student import GROUP_NAME, STUDENT_NAME, VARIANT_NUMBER
 
 def run_task1():
     print(
-        "=== Завдання 1 (Студент: {}, Група: {}, Варіант: {}) ===".format(
+        "Завдання 1 (Студент: {}, Група: {}, Варіант: {})".format(
             STUDENT_NAME, GROUP_NAME, VARIANT_NUMBER
         )
     )
 
-    #Вхідні дані 9 варіанту з методички
     passwords = [
         "Digital@F0r3nsics",
         "plain",
@@ -54,11 +53,9 @@ def run_task1():
 
     min_len = criteria["min_length"]
 
-    # Шапка таблиці
     print("\nПароль                     | Статус надійності")
     print("-" * 50)
 
-    #Перевіряємо кожен пароль по черзі
     for pwd in passwords:
         is_unique = passwords.count(pwd) == 1
 

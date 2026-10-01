@@ -196,5 +196,335 @@
             "SuperSecurePass123!"
         ],
         "kwargs": {}
+    },
+    {
+        "event": "login",
+        "user": "admin_user",
+        "result": "success",
+        "timestamp": "2026-09-14 19:51:27",
+        "args": [
+            "admin_user",
+            "SuperSecurePass123!"
+        ],
+        "kwargs": {}
+    },
+    {
+        "event": "login",
+        "user": "admin_user",
+        "result": "failure",
+        "timestamp": "2026-09-14 19:51:27",
+        "args": [
+            "admin_user",
+            "WrongPassword123!"
+        ],
+        "kwargs": {}
+    },
+    {
+        "event": "login",
+        "user": "unknown_user",
+        "result": "failure",
+        "timestamp": "2026-09-14 19:51:27",
+        "args": [
+            "unknown_user",
+            "SuperSecurePass123!"
+        ],
+        "kwargs": {}
+    },
+    {
+        "event": "login",
+        "user": "admin_user",
+        "result": "success",
+        "timestamp": "2026-09-14 19:51:37",
+        "args": [
+            "admin_user",
+            "SuperSecurePass123!"
+        ],
+        "kwargs": {}
+    },
+    {
+        "event": "login",
+        "user": "admin_user",
+        "result": "failure",
+        "timestamp": "2026-09-14 19:51:37",
+        "args": [
+            "admin_user",
+            "WrongPassword123!"
+        ],
+        "kwargs": {}
+    },
+    {
+        "event": "login",
+        "user": "unknown_user",
+        "result": "failure",
+        "timestamp": "2026-09-14 19:51:37",
+        "args": [
+            "unknown_user",
+            "SuperSecurePass123!"
+        ],
+        "kwargs": {}
+    },
+    {
+        "event": "login",
+        "user": "admin_user",
+        "result": "success",
+        "timestamp": "2026-09-14 20:00:56",
+        "args": [
+            "admin_user",
+            "SuperSecurePass123!"
+        ],
+        "kwargs": {}
+    },
+    {
+        "event": "login",
+        "user": "admin_user",
+        "result": "failure",
+        "timestamp": "2026-09-14 20:00:56",
+        "args": [
+            "admin_user",
+            "WrongPassword123!"
+        ],
+        "kwargs": {}
+    },
+    {
+        "event": "login",
+        "user": "unknown_user",
+        "result": "failure",
+        "timestamp": "2026-09-14 20:00:56",
+        "args": [
+            "unknown_user",
+            "SuperSecurePass123!"
+        ],
+        "kwargs": {}
+    },
+    {
+        "event": "login",
+        "user": "admin_user",
+        "result": "success",
+        "timestamp": "2026-09-14 21:11:59",
+        "args": [
+            "admin_user",
+            "SuperSecurePass123!"
+        ],
+        "kwargs": {}
+    },
+    {
+        "event": "login",
+        "user": "admin_user",
+        "result": "failure",
+        "timestamp": "2026-09-14 21:11:59",
+        "args": [
+            "admin_user",
+            "WrongPassword123!"
+        ],
+        "kwargs": {}
+    },
+    {
+        "event": "login",
+        "user": "unknown_user",
+        "result": "failure",
+        "timestamp": "2026-09-14 21:11:59",
+        "args": [
+            "unknown_user",
+            "SuperSecurePass123!"
+        ],
+        "kwargs": {}
+    },
+    {
+        "event": "login",
+        "user": "admin_user",
+        "result": "success",
+        "timestamp": "2026-09-14 21:32:02",
+        "args": [
+            "admin_user",
+            "SuperSecurePass123!"
+        ],
+        "kwargs": {}
+    },
+    {
+        "event": "login",
+        "user": "admin_user",
+        "result": "failure",
+        "timestamp": "2026-09-14 21:32:02",
+        "args": [
+            "admin_user",
+            "WrongPassword123!"
+        ],
+        "kwargs": {}
+    },
+    {
+        "event": "login",
+        "user": "unknown_user",
+        "result": "failure",
+        "timestamp": "2026-09-14 21:32:02",
+        "args": [
+            "unknown_user",
+            "SuperSecurePass123!"
+        ],
+        "kwargs": {}
+    },
+    {
+        "event": "login",
+        "user": "admin_user",
+        "result": "success",
+        "timestamp": "2026-09-14 21:39:42",
+        "args": [
+            "admin_user",
+            "SuperSecurePass123!"
+        ],
+        "kwargs": {}
+    },
+    {
+        "event": "login",
+        "user": "admin_user",
+        "result": "failure",
+        "timestamp": "2026-09-14 21:39:42",
+        "args": [
+            "admin_user",
+            "WrongPassword123!"
+        ],
+        "kwargs": {}
+    },
+    {
+        "event": "login",
+        "user": "unknown_user",
+        "result": "failure",
+        "timestamp": "2026-09-14 21:39:42",
+        "args": [
+            "unknown_user",
+            "SuperSecurePass123!"
+        ],
+        "kwargs": {}
+    },
+    {
+        "event": "login",
+        "user": "admin_user",
+        "result": "success",
+        "timestamp": "2026-09-14 21:53:14",
+        "args": [
+            "admin_user",
+            "SuperSecurePass123!"
+        ],
+        "kwargs": {}
+    },
+    {
+        "event": "login",
+        "user": "admin_user",
+        "result": "failure",
+        "timestamp": "2026-09-14 21:53:15",
+        "args": [
+            "admin_user",
+            "WrongPassword123!"
+        ],
+        "kwargs": {}
+    },
+    {
+        "event": "login",
+        "user": "unknown_user",
+        "result": "failure",
+        "timestamp": "2026-09-14 21:53:15",
+        "args": [
+            "unknown_user",
+            "SuperSecurePass123!"
+        ],
+        "kwargs": {}
+    },
+    {
+        "event": "login",
+        "user": "admin_user",
+        "result": "success",
+        "timestamp": "2026-09-14 21:58:57",
+        "args": [
+            "admin_user",
+            "SuperSecurePass123!"
+        ],
+        "kwargs": {}
+    },
+    {
+        "event": "login",
+        "user": "admin_user",
+        "result": "failure",
+        "timestamp": "2026-09-14 21:58:57",
+        "args": [
+            "admin_user",
+            "WrongPassword123!"
+        ],
+        "kwargs": {}
+    },
+    {
+        "event": "login",
+        "user": "unknown_user",
+        "result": "failure",
+        "timestamp": "2026-09-14 21:58:57",
+        "args": [
+            "unknown_user",
+            "SuperSecurePass123!"
+        ],
+        "kwargs": {}
+    },
+    {
+        "event": "login",
+        "user": "admin_user",
+        "result": "success",
+        "timestamp": "2026-09-15 15:44:46",
+        "args": [
+            "admin_user",
+            "SuperSecurePass123!"
+        ],
+        "kwargs": {}
+    },
+    {
+        "event": "login",
+        "user": "admin_user",
+        "result": "failure",
+        "timestamp": "2026-09-15 15:44:46",
+        "args": [
+            "admin_user",
+            "WrongPassword123!"
+        ],
+        "kwargs": {}
+    },
+    {
+        "event": "login",
+        "user": "unknown_user",
+        "result": "failure",
+        "timestamp": "2026-09-15 15:44:46",
+        "args": [
+            "unknown_user",
+            "SuperSecurePass123!"
+        ],
+        "kwargs": {}
+    },
+    {
+        "event": "login",
+        "user": "admin_user",
+        "result": "success",
+        "timestamp": "2026-09-29 15:41:09",
+        "args": [
+            "admin_user",
+            "SuperSecurePass123!"
+        ],
+        "kwargs": {}
+    },
+    {
+        "event": "login",
+        "user": "admin_user",
+        "result": "failure",
+        "timestamp": "2026-09-29 15:41:09",
+        "args": [
+            "admin_user",
+            "WrongPassword123!"
+        ],
+        "kwargs": {}
+    },
+    {
+        "event": "login",
+        "user": "unknown_user",
+        "result": "failure",
+        "timestamp": "2026-09-29 15:41:09",
+        "args": [
+            "unknown_user",
+            "SuperSecurePass123!"
+        ],
+        "kwargs": {}
     }
 ]

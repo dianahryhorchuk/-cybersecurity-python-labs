@@ -3,7 +3,6 @@ import random
 import string
 import sys
 
-#Налаштування шляхів імпорту
 sys.path.append(
     os.path.abspath(os.path.join(os.path.dirname(__file__), "../../"))
 )
@@ -95,7 +94,5 @@ def run_task1():
 
         print("{:<26} | {}".format(pwd, status))
 
-
-#Точка входу для прямого запуску файлу task1.py
 if __name__ == "__main__":
     run_task1()

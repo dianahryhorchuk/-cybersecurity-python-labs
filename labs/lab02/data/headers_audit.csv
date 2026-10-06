@@ -1,0 +1,6 @@
+Target,SecurityScore,Grade,Status,MissingHeaders,VersionLeaks
+https://secure.example.invalid/,100,A+,PASS,,
+https://legacy.example.invalid/,20,F,FAIL,Strict-Transport-Security; Content-Security-Policy; X-Content-Type-Options,leaks version in 'Server': Apache/2.4.49; leaks version in 'X-Powered-By': PHP/7.4.3
+https://api.example.invalid/,70,C,WARN,X-Frame-Options,leaks version in 'Server': nginx/1.18.0
+https://portal.example.invalid/,100,A+,PASS,,
+https://minimal.example.invalid/,10,F,FAIL,Strict-Transport-Security; Content-Security-Policy; X-Frame-Options; X-Content-Type-Options,leaks version in 'Server': Microsoft-IIS/10.0

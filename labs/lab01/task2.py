@@ -9,7 +9,11 @@ from shared.student import GROUP_NAME, STUDENT_NAME, VARIANT_NUMBER
 
 def run_task2():
     print(
+<<<<<<< HEAD
         " Завдання 2 (Студент: {}, Група: {}, Варіант: {}) ".format(
+=======
+        "Завдання 2 (Студент: {}, Група: {}, Варіант: {}) ===".format(
+>>>>>>> f03cb151b16bcafaf91614512c020bafc57e0e8e
             STUDENT_NAME, GROUP_NAME, VARIANT_NUMBER
         )
     )
@@ -72,17 +76,27 @@ def run_task2():
         "container_breach",
         "pipeline_compromise",
     }
+<<<<<<< HEAD
 
     #Вивід списку ресурсів із текстовими рівнями замість чисел
     print(" \n Список ресурсів системи ")
     for res_name, level in resources:
         #Оскільки рівні 1..4, а індекси 0..3, віднімаємо 1
+=======
+  
+    print("\n Список ресурсів системи")
+    for res_name, level in resources:
+      
+>>>>>>> f03cb151b16bcafaf91614512c020bafc57e0e8e
         level_text = security_levels[level - 1]
         print("Ресурс: {:<25} | Рівень: {}".format(res_name, level_text))
 
     print("\n Результати перевірки доступу ")
 
+<<<<<<< HEAD
     #Створюємо список користувачів (+ додаємо невідомого користувача для перевірки)
+=======
+>>>>>>> f03cb151b16bcafaf91614512c020bafc57e0e8e
     test_users = list(users.keys()) + ["unknown_user"]
 
     for username in test_users:
@@ -106,5 +120,11 @@ def run_task2():
                 )
             )
 
+<<<<<<< HEAD
 if __name__ == "__main__":
     run_task2()
+=======
+
+if __name__ == "__main__":
+    run_task2()
+>>>>>>> f03cb151b16bcafaf91614512c020bafc57e0e8e

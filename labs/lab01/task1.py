@@ -45,7 +45,10 @@ def run_task1():
         "user",
     }
 
+<<<<<<< HEAD
     #Додаємо 3 випадкові дублікати в кінець списку
+=======
+>>>>>>> f03cb151b16bcafaf91614512c020bafc57e0e8e
     random_indices = random.sample(range(len(passwords)), 3)
     for idx in random_indices:
         passwords.append(passwords[idx])
@@ -95,4 +98,8 @@ def run_task1():
         print("{:<26} | {}".format(pwd, status))
 
 if __name__ == "__main__":
+<<<<<<< HEAD
     run_task1()
+=======
+    run_task1()
+>>>>>>> f03cb151b16bcafaf91614512c020bafc57e0e8e

@@ -295,6 +295,7 @@
             "SuperSecurePass123!"
         ],
         "kwargs": {}
+<<<<<<< HEAD
     },
     {
         "event": "login",
@@ -528,3 +529,7 @@
         "kwargs": {}
     }
 ]
+=======
+    }
+]
+>>>>>>> f03cb151b16bcafaf91614512c020bafc57e0e8e
